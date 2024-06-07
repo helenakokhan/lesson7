@@ -1,0 +1,118 @@
+body {
+    background-color: burlywood;
+    text-align: justify;
+    padding: 5px;
+    margin: 10px;
+}
+
+p > span {
+    text-decoration: underline brown;
+    background-color: #e8e844;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    line-height: 25px;
+    font-size: 20px;
+    text-indent: 35px;
+}
+
+.center {
+    display: grid;
+    place-items: center;
+}
+
+.block {
+    display: block;
+    margin: 50px;
+    border: 5px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #e8e844;
+}
+
+.inline {
+    display: inline-block;
+    margin: 50px;
+    border: 5px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: aquamarine;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 5px solid black;
+    padding: 10px;
+    box-sizing: content-box;
+    flex-direction: column;
+    width: 250px;
+    background-color: darkgreen;
+}
+
+.float {
+    float: left;
+    padding: 10px;
+}
+
+.float1 {
+    float: right;
+    padding: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.style {
+    margin: 50px;
+    border: 10px solid black;
+    padding: 20px;
+    width: 800px;
+    height: 300px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.style::-webkit-scrollbar {
+    background-color: brown;
+    width: 10px;
+}
+
+.style::-webkit-scrollbar-thumb {
+    background-color: #431d03;
+}
+
+.relative {
+    position: relative;
+    left: 5px;
+    top: 10px;
+
+}
+
+.absolute {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+}
+
+.fixed {
+    position: fixed;
+    top: 75px;
+    left: 500px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0px;
+}
+
+.s {
+    width: 80%;
+}
